@@ -1,0 +1,164 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "UpTrain",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#6D2992",
+    "light": "#C732FA",
+    "dark": "#9015E3",
+    "background": {
+      "dark": "#121212"
+    },
+    "anchors": {
+      "from": "#4d0076",
+      "to": "#b33eaf"
+    }
+  },
+  "backgroundImage": "/images/background.png",
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/uptrain-ai/uptrain"
+  },
+  "versions": [
+    "v1",
+    "v0"
+  ],
+  "anchors": [
+    {
+      "name": "Changelog",
+      "icon": "list",
+      "url": "https://github.com/uptrain-ai/uptrain/releases"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://uptrain.ai/blog"
+    },
+    {
+      "name": "Contributing",
+      "icon": "code",
+      "url": "contributing"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://join.slack.com/t/uptraincommunity/shared_invite/zt-1yih3aojn-CEoR_gAh6PDSknhFmuaJeg"
+    },
+    {
+      "name": "API Reference",
+      "icon": "terminal",
+      "url": "https://uptrain-ai.github.io/uptrain"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started 🚀",
+      "version": "v1",
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/quickstart"
+      ]
+    },
+    {
+      "group": "Predefined Evaluations 🗝️",
+      "version": "v1",
+      "pages": [
+        "predefined-evaluations/evals",
+        "predefined-evaluations/response-quality",
+        "predefined-evaluations/context-awareness",
+        "predefined-evaluations/language-features",
+        "predefined-evaluations/conversation",
+        "predefined-evaluations/safeguarding",
+        "predefined-evaluations/code",
+        "predefined-evaluations/custom"
+      ]
+    },
+    {
+      "group": "Tutorials 📑",
+      "version": "v1",
+      "pages": [
+        "tutorials/open-source-evaluator",
+        "tutorials/uptrain-api-client",
+        "tutorials/experiments-evaluation-tutorial"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "version": "v0",
+      "pages": [
+        "v0/getting-started/quickstart",
+        "v0/getting-started/key-features"
+      ]
+    },
+    {
+      "group": "Monitors",
+      "version": "v0",
+      "pages": [
+        "v0/monitors/concept-drift",
+        "v0/monitors/data-drift",
+        "v0/monitors/data-integrity",
+        "v0/monitors/edge-case-detection",
+        "v0/monitors/model-bias",
+        "v0/monitors/custom-monitors"
+      ]
+    },
+    {
+      "group": "Measurables",
+      "version": "v0",
+      "pages": [
+        "v0/measurables/overview",
+        "v0/measurables/predefined",
+        "v0/measurables/custom"
+      ]
+    },
+    {
+      "group": "Visuals",
+      "version": "v0",
+      "pages": [
+        "v0/visuals/plot",
+        "v0/visuals/shap",
+        "v0/visuals/umap",
+        "v0/visuals/tsne"
+      ]
+    },
+    {
+      "group": "Statistics",
+      "version": "v0",
+      "pages": [
+        "v0/statistics/distances",
+        "v0/statistics/convergence-analysis"
+      ]
+    },
+    {
+      "group": "Examples",
+      "version": "v0",
+      "pages": [
+        "v0/examples/text-summarization",
+        "v0/examples/fraud-detection",
+        "v0/examples/human-orientation-classification",
+        "v0/examples/deep-dive-examples",
+        "v0/examples/shopping-cart-recommendation",
+        "v0/examples/ride-time-estimation",
+        "v0/examples/masked-language-modeling",
+        "v0/examples/conversation-summarization"
+      ]
+    },
+    {
+      "group": "Contributing",
+      "version": "v0",
+      "pages": [
+        "contributing/development",
+        "contributing/documentation"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/UpTrainAI/",
+    "github": "https://github.com/uptrain-ai/uptrain/",
+    "linkedin": "https://www.linkedin.com/company/uptrain-ai/"
+  }
+}
