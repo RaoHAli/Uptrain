@@ -20,7 +20,7 @@ env
 *.log
 
 # UpTrain
-uptrain_*
+
 trained_models*
 training_logs*
 evaluation_logs*
